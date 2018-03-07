@@ -294,48 +294,36 @@ assisting the navigation across the arena.</p>
 			    	</div>
 			    </div>
 			    <div class="contents">
-			    	<h1><span>01 </span>ASSESSMENT FORM</h1>
+			    	<h1><span>System </span>Overview</h1>
 			    	<div class="overview">
-			    		<img src="images/portfolio/bfp2.PNG">
+			    		<img src="images/portfolio/w1.jpg">
 			    	</div>
 			    	<div class="overview overview-text">
-			    		<h3>ASSESSMENT<span> INTERFACE</span></h3>
-			    		<p>This is the first part of the system in which the manually written assesment forms will be recorded and saved in the system.</p>
-			    		<p>I spent a lot of time making the design on this part since it needs to be user-friendly and actually solve the problem of manual calculation. We had troubles implementing data binding in order to lessen the work for the user, but in the end we still managed to do it.</p>
+			    		<h3><span> </span></h3>
+			    		<p>This is an RFID based Mobile Robotics system for the ware house management purposes
+Localization is done for the workspace using the nodes with RFID tags and black strips of lines were used for
+assisting the navigation across the arena. </p>
+			    		<p>The robot basically consists of two controllers:ie primary controller
+with a NodeMCU and a secondary controller with an Arduino Mega for motion control .Primary controller deals
+with the commands sending and receival with the CPS(Central Processing System) and secondary controller.</p>
 			    	</div>
 			    </div>
 			    <div class="contents">
 			    	<div class="overview overview-text">
-			    		<h3>ASSESSED<span> INTERFACE</span></h3>
-			    		<p>All of the assessed establishments and projects are filtered here depending on selected year. Updating, deleting and printing of assessments are made here.</p>
+			    		<h3><span> </span></h3>
+			    		<p>In other terms it could be defined as the brain of the system.Secondary controller deals with the basic motion across the grids.It consists of LSA 08 advanced line sensor and the MPU 6050 IMU which asssists its motion
+through the environment.Communication between primary and secondary controllers happens through serial
+communication.Communication between primary controller and the CPS (Central Processing System) happens
+across MQTT</p>
 			    	</div>
 			    	<div class="overview">
-			    		<img src="images/portfolio/bfp3.PNG">
+			    		<img src="images/portfolio/w2.jpg">
 			    	</div>
 			    </div>
-			    <div class="contents">
-			    	<h1><span>02 </span>EVALUATION & INSPECTION</h1>
-			    	<div class="overview">
-			    		<img class="img-1" src="images/portfolio/bfp5.PNG">
-			    		<img class="img-2" src="images/portfolio/bfp4.PNG">
-			    	</div>
-			    	<div class="overview overview-text">
-			    		<h3>CLEARANCES<span> & </span>CERTIFICATES</h3>
-			    		<p>The FSIC tab is where the Fire Safety Inspection Certificate (FSIC) is managed wherein the personnel in charge can track the number of reports or release a printable copy of inspection of a business or a project.</p>
-			    		<p>The FSEC tab is where the Fire Safety Evaluation Clearance (FSEC) is managed wherein the personnel in charge can update the Fire Safety Checklist on building plans or release a printable copy of the clearance.</p>
-			    	</div>
-			    </div>
-			    <div class="contents">
-			    	<h1><span>03 </span>NOTICES</h1>
-			    	<div class="overview overview-text">
-			    		<h3>CORRECT<span> & </span>COMPLY</h3>
-			    		<p>In this part, there are two types of correction, notice to correct and notice to comply. The findings, defects or deficiencies automatically appears here right after every update of the FSEC. The personnel in charge then can penalize each problem for a certain amount.</p>
-			    		<p>There are many things that I want to fix here, like the alignment of texts and the back button in which only exists in the notices tabs.</p>
-			    	</div>
-			    	<div class="overview">
-			    		<img src="images/portfolio/bfp6.PNG">
-			    	</div>
-			    </div>
+			    
+			
+
+<p>You can find the entire project in my Github <a class="underlined" href="https://github.com/rajmohan747/RFID-based-navigational-system-for-Multiple-Mobile-Robots">repository</a>.</p>
 			    <a class="toTops" href="#topNav1" >
 			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 			    </a>
@@ -372,16 +360,8 @@ assisting the navigation across the arena.</p>
 			    <div class="gogon-details nav-details"><span>Date </span> May 2017 -June 2017</div>
 			    <div class="intro gogon-intro">
 			    	<div class="circle gogon-circle"><i class="fa fa-info-circle"></i></div>
-			    	<p><span>T-Analyzer</span>  device used to analyze and detect various odour levels in rest rooms/toilets.An
-offensive smelling toilet is more often caused by a lack of cleaning.While regular cleaning definitely minimizes
-toilet odor,depending on the usage rate,the frequency in which toilet should be cleaned would varies. In this
-project a solution is proposed to analyze and detect various odour levels in rest rooms/toilets.It produces alerts
-at instances where the odor level exceeds the limit.</p>
-			    	<p>The system consists of a transmitter module which is kept
-inside the toilet and a receiver/display module which is kept either just outside toilet or within the vicinity of
-cleaning staffs.It contains various gas sensors like MQ2,MQ3,MQ6,MQ135 for detecting different
-gaseous componenets in the environment. The sensor values were logged for 5 hours and k-means clustering
-was done for classifying the values into two different regions.</p>
+			    	<p><span>T-Analyzer</span>  device used to analyze and detect various odour levels in rest rooms/toilets</p>
+			    	<p></p>
 			    	<div class="rect grading-group">
 			    	<i class="fa fa-group thick"></i> <span class="thick"> TEAM</span>
 			    		<ul>
@@ -391,79 +371,41 @@ was done for classifying the values into two different regions.</p>
 			    	</div>
 			    </div>
 			    <div class="contents">
-			    	<h1><span>01 </span>SYSTEM OVERVIEW</h1>
+			    	<h1><span>System </span>Overview</h1>
 			    	<div class="overview">
-			    		<img src="images/portfolio/gogon1.PNG">
+			    		<img src="images/portfolio/t1.png">
 			    	</div>
 			    	<div class="overview overview-text">
-			    		<h3>MODULES<span> INTERFACE</span></h3>
-			    		<p>The system consists of 5 interconnected modules which runs on the same database. The Personnel and Student Information (PSIS), Enrollment, Scheduling, Grading and Attendance Kiosk are the 5 modules.</p>
-			    		<p>All of our data are taken from the PSIS, enrollment and attendance kiosk. Our module is just all about taking the enrolled students together with their sections and the teachers assigned on those sections. Once a student gets enrolled, we can already create quizzes, projects, activities and behavioral scores.</p>
+			    		<h3><span> </span></h3>
+			    		<p>.An
+offensive smelling toilet is more often caused by a lack of cleaning.While regular cleaning definitely minimizes
+toilet odor,depending on the usage rate,the frequency in which toilet should be cleaned would varies. </p>
+			    		<p>In this
+project a solution is proposed to analyze and detect various odour levels in rest rooms/toilets.It produces alerts
+at instances where the odor level exceeds the limit.</p>
 			    		<p></p>
 			    	</div>
 			    </div>
 			    <div class="contents">
-			    	<h1><span>02 </span>STRUCTURE</h1>
+			    	<h1><span> </span></h1>
 			    	<div class="overview overview-text">
-			    		<h3><span>FOUR </span>QUARTERS</h3>
-			    		<p>The module works by logging an authorized employee (e.g. teacher) </p>
-			    		<p>The FSEC tab is where the Fire Safety Evaluation Clearance (FSEC) is managed wherein the personnel in charge can update the Fire Safety Checklist on building plans or release a printable copy of the clearance.</p>
+			    		<h3><span></span></h3>
+			    		<p>The system consists of a transmitter module which is kept
+inside the toilet and a receiver/display module which is kept either just outside toilet or within the vicinity of
+cleaning staffs. </p>
+			    		<p>It contains various gas sensors like MQ2,MQ3,MQ6,MQ135 for detecting different
+gaseous componenets in the environment. The sensor values were logged for 5 hours and k-means clustering
+was done for classifying the values into two different regions.</p>
 			    	</div>
 			    	<div class="overview">
-			    		<img src="images/portfolio/gogon2.PNG">
+			    		<img src="images/portfolio/t2.PNG">
 			    	</div>
 			    </div>
-			    <div class="contents">
-			    	<h1><span>03 </span>GRADING</h1>
-			    	<div class="overview">
-			    		<img src="images/portfolio/gogon3.PNG">
-			    	</div>
-			    	<div class="overview overview-text">
-			    		<h3>QUIZZES<span> & </span>ACTIVITIES</h3>
-			    		<p>Written works (quizzes) & performance tasks (activities) grades can be created with an option of highscore on every task and a real-time update of totals, Percentage Scores (PS) and Weighted Scores (WS).</p>
-			    	</div>
-			    </div>
-			    <div class="contents">
-			    	<div class="overview overview-text">
-			    		<h3>EXAMS<span> & </span>VALUES</h3>
-			    		<p>Quarterly grades and exam scores are also automatically calculated. Aside from that, the learner's values are also observed and graded which includes Always, Sometimes, Rarely and Never observed values.</p>
-			    	</div>
-			    	<div class="overview">
-			    		<img src="images/portfolio/gogon4.PNG">
-			    	</div>
-			    </div>
-			    <div class="contents">
-			    	<h1><span>04 </span>RANKING</h1>
-			    	<div class="overview overview-text">
-			    		<h3>SUBJECT<span> & </span>SECTION</h3>
-			    		<p>Each subjects per section has a ranking system where in grades from quarter 1-4, subject averages and remarks can be viewed.</p>
-			    	</div>
-			    	<div class="overview">
-			    		<img src="images/portfolio/gogon5.PNG">
-			    	</div>
-			    </div>
-			    <div class="contents">
-			    	<h1><span>05 </span>RECORDS & PERCENTAGES</h1>
-			    	<div class="overview">
-			    		<img src="images/portfolio/gogon6.PNG">
-			    	</div>
-			    	<div class="overview overview-text">
-			    		<h3>STUDENT <span>RECORD</span></h3>
-			    		<p>The student records consists of all the grade-level record of every student starting from grade 7 to 12.</p>
-			    		<h3>SUBJECT <span>PERCENTAGES</span></h3>
-			    		<p>Every subject's written, perform & quarter percentages(%) can be modified depending on the decision of the authorized personnel.</p>
-			    	</div>
-			    </div>
-			    <div class="contents">
-			    	<h1><span>06 </span>REPORT CARD</h1>
-			    	<div class="overview overview-text">
-			    		<h3>FORM -<span> 138 & 137</span></h3>
-			    		<p>An auto-generated and print-ready report card is available and can only be managed and accessed by an adviser of a specific section.</p>
-			    	</div>
-			    	<div class="overview">
-			    		<img src="images/portfolio/gogon7.PNG">
-			    	</div>
-			    </div>
+			    
+			    
+			    
+			 <p>You can find the entire project in my Github <a class="underlined" href="https://github.com/rajmohan747/T-Analyzer">repository</a>.</p>
+			    
 			    <a class="toTops" href="#topNav2" >
 			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 			    </a>
@@ -744,6 +686,10 @@ jamming hence data loss.
 			    		<img src="images/portfolio/2.png">
 			    	</div>
 			    </div>
+
+<p>You can find the entire project in my Github <a class="underlined" href="https://github.com/rajmohan747/Gesture-Based-Rescue-Aiding-Robot">repository</a>.</p>
+
+
 
 			    <a class="toTops" href="#topNav4" >
 			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
